@@ -1,4 +1,4 @@
-import { FiActivity, FiCpu, FiGlobe, FiNavigation } from 'react-icons/fi';
+import { FiCpu, FiGlobe, FiNavigation } from 'react-icons/fi';
 import styles from './Projects.module.scss';
 
 const projects = [
@@ -26,14 +26,15 @@ const projects = [
     ],
   },
   {
-    title: 'FPGA-Based Heart Rate Monitor',
-    category: 'FPGA',
-    Icon: FiActivity,
-  },
-  {
-    title: 'Interactive Website',
+    title: 'K-GRILL2GO | Web Design & Maintenance',
     category: 'Web development',
+    metadata: 'Squarespace, HTML/CSS, Web Design, Content Management',
     Icon: FiGlobe,
+    highlights: [
+      "Manage content and ongoing updates for the restaurant's live Squarespace website, keeping menu and business information accurate and the site easy to use on mobile.",
+      "Redesigned the site's layout and visuals, building four responsive pages in custom HTML/CSS that showcase the menu, business information, and contact options.",
+      'Improved user experience by organizing the menu into categories and adding map directions and a contact form, helping customers find and reach the restaurant easily.',
+    ],
   },
 ];
 
